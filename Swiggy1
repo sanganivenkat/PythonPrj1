@@ -1,0 +1,4 @@
+class Swiggy:
+  def order(self):
+    print(" Order Information ")
+    
