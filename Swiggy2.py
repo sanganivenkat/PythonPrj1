@@ -1,8 +1,8 @@
 class Swiggy:
-  def order(self):
-    print(" Order Information ")
   def cancelOrder(self):
-    print(" Cancel Order ");
+    print(" Cancel Order ")
+  def reserve(self):
+    print("Reserve Order ")
 s1=Swiggy()
-s1.order()
+s1.reserve()
 s1.cancelOrder()
